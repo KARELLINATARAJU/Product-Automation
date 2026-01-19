@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-06T17:38:58 IST" name="PepperfryAutomationSuite" finished-at="2026-01-06T17:39:32 IST" duration-ms="34300">
+    <groups>
+    </groups>
+    <test started-at="2026-01-06T17:38:58 IST" name="ChromeTest" finished-at="2026-01-06T17:39:32 IST" duration-ms="34300">
+      <class name="com.productlistautomation.tests.EndToEndTest">
+        <test-method signature="browserLaunchedAndWebsiteOpened(java.lang.String)[pri:1, instance:com.productlistautomation.tests.EndToEndTest@1253e7cb]" started-at="2026-01-06T17:38:58 IST" name="browserLaunchedAndWebsiteOpened" finished-at="2026-01-06T17:39:11 IST" duration-ms="13286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchedAndWebsiteOpened -->
+        <test-method signature="verifyTitle()[pri:2, instance:com.productlistautomation.tests.EndToEndTest@1253e7cb]" started-at="2026-01-06T17:39:11 IST" name="verifyTitle" finished-at="2026-01-06T17:39:11 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="popupHandle()[pri:3, instance:com.productlistautomation.tests.EndToEndTest@1253e7cb]" started-at="2026-01-06T17:39:11 IST" name="popupHandle" finished-at="2026-01-06T17:39:14 IST" duration-ms="3349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popupHandle -->
+        <test-method signature="setteesAndBenchesPageOpened()[pri:4, instance:com.productlistautomation.tests.EndToEndTest@1253e7cb]" started-at="2026-01-06T17:39:14 IST" name="setteesAndBenchesPageOpened" finished-at="2026-01-06T17:39:14 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setteesAndBenchesPageOpened -->
+        <test-method signature="setteesCountDisplayed()[pri:5, instance:com.productlistautomation.tests.EndToEndTest@1253e7cb]" started-at="2026-01-06T17:39:14 IST" name="setteesCountDisplayed" finished-at="2026-01-06T17:39:15 IST" duration-ms="788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setteesCountDisplayed -->
+        <test-method signature="benchesCountDisplayed()[pri:6, instance:com.productlistautomation.tests.EndToEndTest@1253e7cb]" started-at="2026-01-06T17:39:15 IST" name="benchesCountDisplayed" finished-at="2026-01-06T17:39:15 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- benchesCountDisplayed -->
+        <test-method signature="recamiersCountDisplayed()[pri:7, instance:com.productlistautomation.tests.EndToEndTest@1253e7cb]" started-at="2026-01-06T17:39:15 IST" name="recamiersCountDisplayed" finished-at="2026-01-06T17:39:18 IST" duration-ms="2780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recamiersCountDisplayed -->
+        <test-method signature="dropdownClicked()[pri:8, instance:com.productlistautomation.tests.EndToEndTest@1253e7cb]" started-at="2026-01-06T17:39:18 IST" name="dropdownClicked" finished-at="2026-01-06T17:39:21 IST" duration-ms="2790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdownClicked -->
+        <test-method signature="metalOptionClicked()[pri:9, instance:com.productlistautomation.tests.EndToEndTest@1253e7cb]" started-at="2026-01-06T17:39:21 IST" name="metalOptionClicked" finished-at="2026-01-06T17:39:22 IST" duration-ms="936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- metalOptionClicked -->
+        <test-method signature="resultDisplayed()[pri:10, instance:com.productlistautomation.tests.EndToEndTest@1253e7cb]" started-at="2026-01-06T17:39:22 IST" name="resultDisplayed" finished-at="2026-01-06T17:39:26 IST" duration-ms="3916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultDisplayed -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.productlistautomation.tests.EndToEndTest@1253e7cb]" started-at="2026-01-06T17:39:26 IST" name="close" finished-at="2026-01-06T17:39:32 IST" duration-ms="6074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.productlistautomation.tests.EndToEndTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- PepperfryAutomationSuite -->
+</testng-results>
