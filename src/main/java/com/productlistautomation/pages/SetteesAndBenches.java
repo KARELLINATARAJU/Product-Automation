@@ -64,9 +64,9 @@ public class SetteesAndBenches {
     }
 
     // Scroll and select Metal option
-    public void scrollAndClickMetal(String name){
+    public void scrollAndClickMetal(){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        By metalOption = By.xpath("//label[normalize-space()='"+name+"']");
+        By metalOption = By.xpath("//label[normalize-space()='Metal']");
         WebElement metal = WaitUtils.waitForVisible(driver,metalOption);
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block:'center'});", metal);
         ScreenShotUtils.takeScreenShot(driver,"MetalOption");

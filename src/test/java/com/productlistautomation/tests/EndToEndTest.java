@@ -17,7 +17,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
- //End-to-end test for Pepperfry furniture automation.
+//End-to-end test for Pepperfry furniture automation.
 public class EndToEndTest extends BaseDriver {
     WebDriver driver;
     HomePage homePage;
@@ -101,7 +101,7 @@ public class EndToEndTest extends BaseDriver {
     @Test(priority = 8)
     public void metalOptionClicked() throws InterruptedException {
         String materialName = ExcelUtils.getCellData("src/test/resources/testdata.xlsx", 0, 1);
-        snb.scrollAndClickMetal(materialName);
+        snb.scrollAndClickMetal();
         test.pass("Metal Option Clicked");
     }
 
