@@ -16,12 +16,16 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 
 //End-to-end test for Pepperfry furniture automation.
 public class EndToEndTest extends BaseDriver {
     WebDriver driver;
     HomePage homePage;
     SetteesAndBenches snb;
+    private static final Logger log = LogManager.getLogger(EndToEndTest.class);
 
     ExtentReports extent = ExtentManager.getInstance();
     ExtentTest test = extent.createTest("ProductListAutomation", "Automation Report");
@@ -37,6 +41,7 @@ public class EndToEndTest extends BaseDriver {
         test.pass("Browser Launched and Website Opened");
         WaitUtils.waitForPageLaod(driver);
         ScreenShotUtils.takeScreenShot(driver, "Homepage_loaded");
+        log.info("website launched and page opened");
     }
 
     // Verify homepage title
